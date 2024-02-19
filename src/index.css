@@ -1,0 +1,19 @@
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+.div img {
+    width: 100%;
+    border: 2px solid whitesmoke;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+    overflow: auto;
+}
+
+.div img:hover {
+    filter: saturate(100%);
+    width: 100%;
+}
